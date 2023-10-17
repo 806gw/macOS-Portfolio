@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import { terminal } from "~/configs";
 import type { TerminalData } from "~/types";
 
@@ -18,6 +18,7 @@ interface HowDareProps {
 interface TerminalState {
   rmrf: boolean;
   content: JSX.Element[];
+  transparency: number;
 }
 
 // rain animation is adopted from: https://codepen.io/P3R0/pen/MwgoKv
@@ -106,7 +107,8 @@ export default class Terminal extends Component<{}, TerminalState> {
     super(props);
     this.state = {
       content: [],
-      rmrf: false
+      rmrf: false,
+      transparency: 1
     };
     this.commands = {
       cd: this.cd,
@@ -352,7 +354,8 @@ export default class Terminal extends Component<{}, TerminalState> {
       <div key={`terminal-input-row-${id}`} className="w-full h-6 flex">
         <div className="w-max hstack">
           <span className="text-yellow-200">
-            zou@macbook-pro <span className="text-green-300">{this.getCurDirName()}</span>
+            jinhyo@macbook-pro{" "}
+            <span className="text-green-300">{this.getCurDirName()}</span>
           </span>
           <span className="ml-1.5 text-red-400">{">"}</span>
         </div>
@@ -379,16 +382,27 @@ export default class Terminal extends Component<{}, TerminalState> {
   render() {
     return (
       <div
-        className="terminal font-terminal font-normal relative w-full h-full bg-gray-800/90 overflow-y-scroll"
+        className="terminal font-terminal font-normal relative w-full h-full overflow-y-scroll"
         text="white sm"
         onClick={() => this.focusOnInput(this.curInputTimes)}
+        style={{
+          background: `rgba(40, 42, 53, ${this.state.transparency})`
+        }}
       >
         {this.state.rmrf && (
           <HowDare setRMRF={(value: boolean) => this.setState({ rmrf: value })} />
         )}
-        <div className="w-full h-max pt-2 px-1.5 ">
-          <span className="text-green-300">ヽ(ˋ▽ˊ)ノ</span>: Hey, you found the terminal!
-          Type `help` to get started.
+        <div className="w-full h-max pt-2 px-1.5 top-fix">
+          <input
+            type="range"
+            min={0}
+            max={1}
+            step={0.05}
+            value={this.state.transparency}
+            onChange={(e) => {
+              this.setState({ ...this.state, transparency: e.target.valueAsNumber });
+            }}
+          />
         </div>
         <div id="terminal-content" className="mt-2 px-1.5 pb-2">
           {this.state.content}

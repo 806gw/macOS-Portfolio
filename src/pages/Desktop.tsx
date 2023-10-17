@@ -44,6 +44,17 @@ export default function Desktop(props: MacActions) {
     spotlight: false
   } as DesktopState);
 
+  const closeApp = (id: string): void => {
+    setAppMax(id, false);
+    const showApps = state.showApps;
+    showApps[id] = false;
+    setState({
+      ...state,
+      showApps: showApps,
+      hideDockAndTopbar: false
+    });
+  };
+
   const [spotlightBtnRef, setSpotlightBtnRef] =
     useState<RefObject<HTMLDivElement> | null>(null);
 
@@ -156,17 +167,6 @@ export default function Desktop(props: MacActions) {
 
     // add it to the minimized app list
     setAppMin(id, true);
-  };
-
-  const closeApp = (id: string): void => {
-    setAppMax(id, false);
-    const showApps = state.showApps;
-    showApps[id] = false;
-    setState({
-      ...state,
-      showApps: showApps,
-      hideDockAndTopbar: false
-    });
   };
 
   const openApp = (id: string): void => {
