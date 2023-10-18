@@ -21,6 +21,7 @@
     "@milkdown/preset-gfm": "^7.3.0",
     "@milkdown/react": "^7.3.0",
     "@rooks/use-raf": "^4.11.2",
+    "@uiw/react-md-editor": "^3.24.1",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.16.4",
     "katex": "^0.16.8",

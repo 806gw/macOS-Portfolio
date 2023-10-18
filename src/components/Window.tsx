@@ -193,7 +193,7 @@ const Window = (props: WindowProps) => {
       lockAspectRatioExtraHeight={props.aspectRatio ? appBarHeight : undefined}
       style={{ zIndex: props.z }}
       onMouseDown={() => props.focus(props.id)}
-      className={`absolute ${round} overflow-hidden bg-transparent w-full h-full ${border} shadow-lg shadow-black/30 ${minimized}`}
+      className={` window-size-transition absolute ${round} overflow-hidden bg-transparent w-full h-full ${border} shadow-lg shadow-black/30 ${minimized}`}
       id={`window-${props.id}`}
     >
       <div

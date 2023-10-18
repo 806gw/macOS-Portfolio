@@ -180,3 +180,7 @@ input[type=range]:focus::-ms-fill-upper {
   font-size: 22px;
   cursor: pointer;
 }
+
+.window-size-transition {
+  transition: all .25s;
+}

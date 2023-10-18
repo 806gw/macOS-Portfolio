@@ -1,12 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula, prism } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { useStore } from "~/stores";
 import bear from "~/configs/bear";
+import MDEditor from "@uiw/react-md-editor";
 import type { BearMdData } from "~/types";
 
 interface ContentProps {
@@ -178,16 +175,12 @@ const Content = ({ contentID, contentURL }: ContentProps) => {
   }, [contentID, contentURL, fetchMarkdown]);
 
   return (
-    <div className="markdown w-full h-full c-text-700 bg-gray-50 dark:bg-gray-800 overflow-scroll py-6">
-      <div className="w-2/3 px-2 mx-auto">
-        <ReactMarkdown
-          linkTarget="_blank"
-          remarkPlugins={[remarkGfm, remarkMath]}
-          rehypePlugins={[rehypeKatex]}
-          components={Highlighter(dark as boolean)}
-        >
-          {storeMd[contentID]}
-        </ReactMarkdown>
+    <div
+      className="w-full h-full c-text-700 bg-gray-50 dark:bg-gray-800 overflow-scroll py-20"
+      style={{ backgroundColor: dark ? "#0d1117" : "" }}
+    >
+      <div className="w-2/3 px-2 mx-auto" data-color-mode={dark ? "dark" : "light"}>
+        <MDEditor.Markdown source={storeMd[contentID]} />
       </div>
     </div>
   );

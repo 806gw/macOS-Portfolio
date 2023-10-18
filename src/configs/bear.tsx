@@ -4,51 +4,45 @@ const bear: BearData[] = [
   {
     id: "profile",
     title: "Profile",
-    icon: "i-fa-solid:paw",
+    icon: "i-icon-park-outline:user-positioning",
     md: [
       {
         id: "about-me",
         title: "About Me",
         file: "markdown/about-me.md",
-        icon: "i-la:dragon",
-        excerpt: "Hey there! I'm a dragon lost in human world..."
+        icon: "i-icon-park-outline:user",
+        excerpt: "김진효 (Jinhyo Kim) | Frontend & Backend Developer"
       },
       {
         id: "github-stats",
         title: "Github Stats",
         file: "markdown/github-stats.md",
         icon: "i-icon-park-outline:github",
-        excerpt: "Here are some status about my github account..."
-      },
-      {
-        id: "about-site",
-        title: "About This Site",
-        file: "markdown/about-site.md",
-        icon: "i-octicon:browser",
-        excerpt: "Something about this personal portfolio site..."
+        excerpt: "My Github stats and BOJ Tier"
       }
     ]
   },
   {
     id: "project",
     title: "Projects",
-    icon: "i-octicon:repo",
+    icon: "i-icon-park-outline:web-page",
     md: [
       {
-        id: "flint",
-        title: "Flint",
-        file: "https://raw.githubusercontent.com/Renovamen/flint/main/README.md",
+        id: "aurora",
+        title: "Aurora",
+        file: "https://raw.githubusercontent.com/proj-aurora/.github/main/profile/README.md",
         icon: "i-heroicons-solid:fire",
-        excerpt: "A deep learning framework implemented in Numpy...",
-        link: "https://github.com/Renovamen/flint"
+        excerpt:
+          "서버의 성능 및 시스템 상태를 실시간으로 관측할 수 있는 오로라 모니터링 시스템",
+        link: "https://github.com/proj-aurora"
       },
       {
-        id: "portfolio-macos",
-        title: "Portfolio macOS",
-        file: "https://raw.githubusercontent.com/Renovamen/playground-macos/main/README.md",
+        id: "green-mileage",
+        title: "Green Mileage",
+        file: "https://raw.githubusercontent.com/Team-Firewall/.github/main/profile/README.md",
         icon: "i-ri:gamepad-line",
-        excerpt: "My portfolio website simulating macOS's GUI...",
-        link: "https://github.com/Renovamen/playground-macos"
+        excerpt: "경북소프트웨어고.봉양중학교 교내/기숙사 상벌점 관리 시스템",
+        link: "https://github.com/Team-Firewall"
       },
       {
         id: "oh-my-cv",
