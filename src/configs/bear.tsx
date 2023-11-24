@@ -31,56 +31,56 @@ const bear: BearData[] = [
         id: "aurora",
         title: "Aurora",
         file: "https://raw.githubusercontent.com/proj-aurora/.github/main/profile/README.md",
-        icon: "i-heroicons-solid:fire",
-        excerpt:
-          "서버의 성능 및 시스템 상태를 실시간으로 관측할 수 있는 오로라 모니터링 시스템",
+        icon: "i-heroicons-solid:computer-desktop",
+        excerpt: "서버의 시스템 상태를 실시간으로 관측할 수 있는 모니터링 시스템",
         link: "https://github.com/proj-aurora"
       },
       {
         id: "green-mileage",
         title: "Green Mileage",
         file: "https://raw.githubusercontent.com/Team-Firewall/.github/main/profile/README.md",
-        icon: "i-ri:gamepad-line",
+        icon: "i-heroicons-solid:plus-circle",
         excerpt: "경북소프트웨어고.봉양중학교 교내/기숙사 상벌점 관리 시스템",
         link: "https://github.com/Team-Firewall"
       },
       {
-        id: "oh-my-cv",
-        title: "Oh, My CV!",
-        file: "https://raw.githubusercontent.com/Renovamen/oh-my-cv/main/README.md",
-        icon: "i-ri:newspaper-fill",
-        excerpt: "Write your curriculum vitae / resume in Markdown online...",
-        link: "https://ohmycv.app"
+        id: "jinhyo-devlog",
+        title: "Jinhyo's Devlog",
+        file: "https://raw.githubusercontent.com/jinhyo-dev/devlog-front/master/README.md",
+        icon: "i-heroicons-solid:command-line",
+        excerpt: "나만의 개발 블로그 사이트",
+        link: "https://github.com//jinhyo-dev/devlog-front"
       },
       {
-        id: "oh-vue-icons",
-        title: "Oh, Vue Icons!",
-        file: "https://raw.githubusercontent.com/Renovamen/oh-vue-icons/master/README.md",
-        icon: "i-fa-brands:vuejs",
-        excerpt: "Importing icons from different icon packs in Vue easily...",
-        link: "https://oh-vue-icons.js.org"
+        id: "fondant",
+        title: "퐁당 미디어 콘퍼런스",
+        file: "markdown/portfolio/fondant/fondant.md",
+        icon: "i-heroicons-solid:film",
+        excerpt: "퐁당 미디어 콘퍼런스 2023 홍보 페이지",
+        link: "http://fondantconference.kr"
       },
       {
-        id: "gungnir",
-        title: "Gungnir",
-        file: "https://raw.githubusercontent.com/Renovamen/vuepress-theme-gungnir/main/README.md",
-        icon: "i-akar-icons:sword",
-        excerpt: "A simple and beautiful blog theme for VuePress...",
+        id: "smart-farm",
+        title: "Smart Farm",
+        file: "https://raw.githubusercontent.com/Team-Raise/.github/main/profile/README.md",
+        icon: "i-icon-park-outline:vegetables",
+        excerpt: "Next.js, Arduino, Raspberry Pi를 사용하여 제작한 스마트팜",
         link: "https://vuepress-theme-gungnir.vercel.app"
       },
       {
-        id: "metallic",
-        title: "Metallic",
-        file: "https://raw.githubusercontent.com/Renovamen/metallic/master/README.md",
-        icon: "i-icon-park-outline:heavy-metal",
-        excerpt: "A meta-learning library base on PyTorch...",
-        link: "https://github.com/Renovamen/metallic"
+        id: "gbsw-book-manager",
+        title: "전공 도서 관리 시스템",
+        file: "markdown/portfolio/gbsw-book-manager/gbsw-book-manager.md",
+        icon: "i-icon-park-outline:book-open",
+        excerpt:
+          "경북소프트웨어고등학교 전공 도서를 대출.반납 할 수 있는 도서 관리 프로그램",
+        link: "https://github.com/gbsw-book-manager"
       },
       {
         id: "text-classification",
         title: "Text Classification",
         file: "https://raw.githubusercontent.com/Renovamen/Text-Classification/master/README.md",
-        icon: "i-gg:format-text",
+        icon: "i-icon-park-outline:book-open",
         excerpt: "PyTorch implementation of text classificaiton models...",
         link: "https://github.com/Renovamen/Text-Classification"
       },
