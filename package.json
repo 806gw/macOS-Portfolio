@@ -6,7 +6,7 @@
     "dev": "vite --host",
     "lint": "eslint --ext .js,.ts,.tsx ./",
     "prepare": "husky install",
-    "serve": "vite preview --host"
+    "serve": "vite preview --host --port 3000"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix",
