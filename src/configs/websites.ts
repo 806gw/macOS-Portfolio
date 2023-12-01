@@ -5,47 +5,22 @@ const websites: WebsitesData = {
     title: "SNS Links",
     sites: [
       {
-        id: "my-blog",
-        title: "Website",
-        img: "https://zxh.io/img/avatar.jpg",
-        link: "https://zxh.io/",
-        inner: true
-      },
-      {
         id: "my-github",
         title: "Github",
         img: "img/sites/github.svg",
-        link: "https://github.com/Renovamen"
+        link: "https://github.com/jinhyo-dev"
       },
       {
-        id: "my-linkedin",
-        title: "Linkedin",
-        img: "img/sites/linkedin.svg",
-        link: "https://www.linkedin.com/in/xiaohan-zou"
-      },
-      {
-        id: "my-google-scholar",
-        title: "Scholar",
-        img: "img/sites/google-scholar.svg",
-        link: "https://scholar.google.com/citations?user=RuW6xgMAAAAJ"
-      },
-      {
-        id: "my-zhihu",
-        title: "知乎",
-        img: "img/sites/zhihu.jpeg",
-        link: "https://www.zhihu.com/people/chao-neng-gui-su"
-      },
-      {
-        id: "my-twitter",
-        title: "Twitter",
-        img: "img/sites/twitter.svg",
-        link: "https://www.twitter.com/renovamen_zxh"
+        id: "my-instagram",
+        title: "Instagram",
+        img: "img/sites/instagram.svg",
+        link: "https://instagram.com/jinhyo___?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
       },
       {
         id: "my-email",
         title: "Email",
         img: "img/sites/gmail.svg",
-        link: "mailto:renovamenzxh@gmail.com"
+        link: "mailto:admin@jinhyo.dev"
       }
     ]
   },
@@ -59,24 +34,27 @@ const websites: WebsitesData = {
         link: "https://github.com/"
       },
       {
-        id: "arxiv",
-        title: "arXiv",
-        img: "img/sites/arxiv.png",
-        link: "https://arxiv.org/"
+        id: "green-mileage",
+        title: "GreenMileage",
+        img: "img/icons/launchpad/gbsw-logo.png",
+        link: "https://mileage.gbsw.hs.kr",
+        inner: true
       },
       {
-        id: "twitter",
-        title: "Twitter",
-        img: "img/sites/twitter.svg",
-        link: "https://www.twitter.com/"
+        id: "devlog",
+        title: "Devlog",
+        img: "img/icons/launchpad/devlog.png",
+        link: "https://devlog.jinhyo.dev",
+        inner: true
       },
       {
-        id: "dribbble",
-        title: "Dribbble",
-        img: "img/sites/dribbble.svg",
-        link: "https://dribbble.com/"
-      },
-      {
+        id: "lemonaid",
+        title: "Lemon Aid",
+        img: "img/icons/launchpad/lemonaid.png",
+        link: "https://lemonaid.im",
+        inner: true
+      }
+      /*{
         id: "pinterest",
         title: "Pinterest",
         img: "img/sites/pinterest.svg",
@@ -159,7 +137,7 @@ const websites: WebsitesData = {
         title: "Tiny PNG",
         img: "https://tinypng.com/images/panda-chewing-2x.png",
         link: "https://tinypng.com/"
-      }
+      }*/
     ]
   }
 };

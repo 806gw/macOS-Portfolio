@@ -1,6 +1,6 @@
 {
-  "short_name": "playground-macos",
-  "name": "Xiaohan Zou's Portfolio",
+  "short_name": "Jinhyo's Portfolio",
+  "name": "Jinhyo's Portfolio",
   "icons": [
     {
       "src": "logo/favicon.svg",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo/logo192.png",
+      "src": "logo/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo/logo512.png",
+      "src": "logo/favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -48,7 +48,7 @@ const bear: BearData[] = [
         title: "Jinhyo's Devlog",
         file: "https://raw.githubusercontent.com/jinhyo-dev/devlog-front/master/README.md",
         icon: "i-heroicons-solid:command-line",
-        excerpt: "나만의 개발 블로그 사이트",
+        excerpt: "개발 블로그 사이트",
         link: "https://github.com//jinhyo-dev/devlog-front"
       },
       {
@@ -75,8 +75,8 @@ const bear: BearData[] = [
         excerpt:
           "경북소프트웨어고등학교 전공 도서를 대출.반납 할 수 있는 도서 관리 프로그램",
         link: "https://github.com/gbsw-book-manager"
-      },
-      {
+      }
+      /*{
         id: "text-classification",
         title: "Text Classification",
         file: "https://raw.githubusercontent.com/Renovamen/Text-Classification/master/README.md",
@@ -147,7 +147,7 @@ const bear: BearData[] = [
         icon: "i-game-icons:fish-escape",
         excerpt: "上班的时候装作在 Gmail 上查邮件的样子看知乎摸鱼...",
         link: "https://fishmail.vercel.app"
-      }
+      }*/
     ]
   }
 ];

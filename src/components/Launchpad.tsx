@@ -76,7 +76,7 @@ export default function Launchpad({ show, toggleLaunchpad }: LaunchpadProps) {
                   onClick={(e) => e.stopPropagation()}
                 >
                   <img
-                    className="w-14 sm:w-20 mx-auto"
+                    className="w-14 sm:w-20 mx-auto img-object-fit"
                     src={app.img}
                     alt={app.title}
                     title={app.title}

@@ -34,7 +34,7 @@ const NavSection = ({ width, section, setGoURL }: NavSectionProps) => {
         {section.sites.map((site: SiteData) => (
           <div key={`safari-nav-${site.id}`} className="h-28 w-full flex-center">
             <div className="h-full w-full flex flex-col">
-              <div className="h-max w-max mx-auto bg-white rounded-md">
+              <div className="h-max w-max mx-auto rounded-md">
                 {site.img ? (
                   <img
                     className="w-16 h-16 mx-auto rounded-md"

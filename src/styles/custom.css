@@ -237,3 +237,9 @@ input[type=range]:focus::-ms-fill-upper {
 .window-size-transition {
   transition: width .25s, height .25s, transform .25s;
 }
+
+.img-object-fit {
+  width: 80px;
+  height: 80px;
+  object-fit: scale-down;
+}
