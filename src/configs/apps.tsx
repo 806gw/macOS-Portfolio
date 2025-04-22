@@ -15,14 +15,14 @@ const apps: AppsData[] = [
     img: "img/icons/launchpad.png"
   },
   {
-    id: "Jinhyo",
-    title: "Jinhyo",
+    id: "Hongje",
+    title: "Hongje",
     desktop: true,
-    width: 860,
-    height: 500,
+    width: 1080,
+    height: 560,
     show: true,
-    y: -40,
-    img: "img/icons/jinhyo.png",
+    y: -20,
+    img: "img/icons/hongje.png",
     content: <Bear />
   },
   {
@@ -35,28 +35,28 @@ const apps: AppsData[] = [
     img: "img/icons/notes.png",
     content: <Typora />
   },
-  {
-    id: "safari",
-    title: "Safari",
-    desktop: true,
-    width: 1024,
-    minWidth: 375,
-    minHeight: 200,
-    x: -20,
-    img: "img/icons/safari.png",
-    content: <Safari />
-  },
-  {
-    id: "vscode",
-    title: "VSCode",
-    desktop: true,
-    width: 900,
-    height: 600,
-    x: 80,
-    y: -30,
-    img: "img/icons/vscode.png",
-    content: <VSCode />
-  },
+  // {
+  //   id: "safari",
+  //   title: "Safari",
+  //   desktop: true,
+  //   width: 1024,
+  //   minWidth: 375,
+  //   minHeight: 200,
+  //   x: -20,
+  //   img: "img/icons/safari.png",
+  //   content: <Safari />
+  // },
+  // {
+  //   id: "vscode",
+  //   title: "VSCode",
+  //   desktop: true,
+  //   width: 900,
+  //   height: 600,
+  //   x: 80,
+  //   y: -30,
+  //   img: "img/icons/vscode.png",
+  //   content: <VSCode />
+  // },
   {
     id: "facetime",
     title: "FaceTime",
@@ -83,7 +83,7 @@ const apps: AppsData[] = [
     title: "Github",
     desktop: false,
     img: "img/icons/github.png",
-    link: "https://github.com/jinhyo-dev"
+    link: "https://github.com/806gw"
   }
 ];
 

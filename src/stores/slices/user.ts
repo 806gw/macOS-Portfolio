@@ -11,7 +11,7 @@ export interface UserSlice {
 }
 
 export const createUserSlice: StateCreator<UserSlice> = (set) => ({
-  typoraMd: `# Hi 👋\nWelcome to visit Jinhyo's portfolio website.\nType Anything !`,
+  typoraMd: `# Hi 👋\nWelcome to visit Hongje's portfolio website.\nType Anything !`,
   setTyporaMd: (v) => set(() => ({ typoraMd: v })),
   faceTimeImages: {},
   addFaceTimeImage: (v) =>

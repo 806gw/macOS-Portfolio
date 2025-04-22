@@ -8,7 +8,7 @@ const websites: WebsitesData = {
         id: "my-github",
         title: "Github",
         img: "img/sites/github.svg",
-        link: "https://github.com/jinhyo-dev"
+        link: "https://github.com/806gw"
       },
       {
         id: "my-instagram",
@@ -20,7 +20,7 @@ const websites: WebsitesData = {
         id: "my-email",
         title: "Email",
         img: "img/sites/gmail.svg",
-        link: "mailto:admin@jinhyo.dev"
+        link: "hongjeeeeeee@gmail.com"
       }
     ]
   },
