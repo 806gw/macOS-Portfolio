@@ -46,17 +46,17 @@ const apps: AppsData[] = [
   //   img: "img/icons/safari.png",
   //   content: <Safari />
   // },
-  // {
-  //   id: "vscode",
-  //   title: "VSCode",
-  //   desktop: true,
-  //   width: 900,
-  //   height: 600,
-  //   x: 80,
-  //   y: -30,
-  //   img: "img/icons/vscode.png",
-  //   content: <VSCode />
-  // },
+  {
+    id: "vscode",
+    title: "VSCode",
+    desktop: true,
+    width: 900,
+    height: 600,
+    x: 80,
+    y: -30,
+    img: "img/icons/vscode.png",
+    content: <VSCode />
+  },
   {
     id: "facetime",
     title: "FaceTime",

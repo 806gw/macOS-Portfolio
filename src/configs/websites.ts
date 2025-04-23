@@ -4,56 +4,56 @@ const websites: WebsitesData = {
   favorites: {
     title: "SNS Links",
     sites: [
-      {
-        id: "my-github",
-        title: "Github",
-        img: "img/sites/github.svg",
-        link: "https://github.com/806gw"
-      },
-      {
-        id: "my-instagram",
-        title: "Instagram",
-        img: "img/sites/instagram.svg",
-        link: "https://instagram.com/jinhyo___?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
-      },
-      {
-        id: "my-email",
-        title: "Email",
-        img: "img/sites/gmail.svg",
-        link: "hongjeeeeeee@gmail.com"
-      }
+      // {
+      //   id: "my-github",
+      //   title: "Github",
+      //   img: "img/sites/github.svg",
+      //   link: "https://github.com/806gw"
+      // },
+      // {
+      //   id: "my-instagram",
+      //   title: "Instagram",
+      //   img: "img/sites/instagram.svg",
+      //   link: "https://instagram.com/jinhyo___?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+      // },
+      // {
+      //   id: "my-email",
+      //   title: "Email",
+      //   img: "img/sites/gmail.svg",
+      //   link: "hongjeeeeeee@gmail.com"
+      // }
     ]
   },
   freq: {
     title: "Frequently Visited",
     sites: [
-      {
-        id: "github",
-        title: "Github",
-        img: "img/sites/github.svg",
-        link: "https://github.com/"
-      },
-      {
-        id: "green-mileage",
-        title: "GreenMileage",
-        img: "img/icons/launchpad/gbsw-logo.png",
-        link: "https://mileage.gbsw.hs.kr",
-        inner: true
-      },
-      {
-        id: "devlog",
-        title: "Devlog",
-        img: "img/icons/launchpad/devlog.png",
-        link: "https://devlog.jinhyo.dev",
-        inner: true
-      },
-      {
-        id: "lemonaid",
-        title: "Lemon Aid",
-        img: "img/icons/launchpad/lemonaid.png",
-        link: "https://lemonaid.im",
-        inner: true
-      }
+      // {
+      //   id: "github",
+      //   title: "Github",
+      //   img: "img/sites/github.svg",
+      //   link: "https://github.com/"
+      // },
+      // {
+      //   id: "green-mileage",
+      //   title: "GreenMileage",
+      //   img: "img/icons/launchpad/gbsw-logo.png",
+      //   link: "https://mileage.gbsw.hs.kr",
+      //   inner: true
+      // },
+      // {
+      //   id: "devlog",
+      //   title: "Devlog",
+      //   img: "img/icons/launchpad/devlog.png",
+      //   link: "https://devlog.jinhyo.dev",
+      //   inner: true
+      // },
+      // {
+      //   id: "lemonaid",
+      //   title: "Lemon Aid",
+      //   img: "img/icons/launchpad/lemonaid.png",
+      //   link: "https://lemonaid.im",
+      //   inner: true
+      // }
       /*{
         id: "pinterest",
         title: "Pinterest",
