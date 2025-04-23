@@ -30,7 +30,7 @@ const bear: BearData[] = [
       {
         id: "lab",
         title: "실습실 대여 시스템",
-        file: "not found",
+        file: "https://raw.githubusercontent.com/GBSM-LANTAL-SYSYEM/.github/main/profile/README.md",
         icon: "i-heroicons-solid:computer-desktop",
         excerpt: "경북소프트웨어마이스터고등학교 실습실 대여 시스템",
         link: "https://github.com/GBSM-LANTAL-SYSYEM/GBSM-Frontend-V2"
