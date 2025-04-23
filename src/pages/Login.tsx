@@ -71,9 +71,9 @@ export default function Login(props: MacActions) {
         {loginInputShow && (
           <div className="mx-auto grid grid-cols-5 w-46 h-8 mt-4 rounded-md backdrop-blur-2xl bg-gray-300/50 border-radius">
             <input
-              className="text-sm text-white col-start-1 col-span-4 no-outline bg-transparent px-4 login-input"
+              className="text-sm text-white col-start-1 col-span-4 no-outline bg-transparent px-3.5 login-input"
               type="password"
-              placeholder="Enter Password"
+              placeholder="Please Press Enter"
               onClick={(e) => e.stopPropagation()}
               onKeyPress={keyPress}
               value={password}
